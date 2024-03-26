@@ -21,7 +21,7 @@ Simulated options for `cat` command:
 
 - `-n` : Number all output lines, helpful for viewing or debugging files with line number reference.
 - `-v` : Display non-printing characters, making control and other non-printing characters visible, except for tabs and the end of line markers.
-- `-sa` : Merge input files into 1 file. It is an optimize option of SanAn
+- `-sa` : Merge input files into 1 file. It is an optimize option of SanAn Software
 
 Comment quality: Similar to Unix output with comments.
 
