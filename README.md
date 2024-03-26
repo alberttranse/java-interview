@@ -19,15 +19,15 @@ Comment quality: Similar to Unix output with comments.
 
 Simulated options for `cat` command:
 
-- `-a`
-- `-A`
+- `-n` : Number all output lines, helpful for viewing or debugging files with line number reference.
+- `-v` : Display non-printing characters, making control and other non-printing characters visible, except for tabs and the end of line markers.
+- `-sa` : Merge input files into 1 file. It is an optimize option of SanAn
 
 Comment quality: Similar to Unix output with comments.
 
 # Evaluation and Improvements
 
-Current algorithm is quite simple, so there hasn't been much optimization in terms of algorithm complexity. Basic techniques such as ArrayList, HashMap have been utilized for basic programming optimizations.
-
+- Current algorithm is quite simple, so there hasn't been much optimization in terms of algorithm complexity. Basic techniques such as ArrayList, HashMap have been utilized for basic programming optimizations.
 - Usage of `StringBuffer`, `StringBuilder` for optimizing file read/write operations.
 - Employing Streams to handle large file scenarios.
-- Investigated some issues related to comments, such as the “>`” option when using the `cat` command. However, due to Unix directionality issues, appropriate handling hasn't been implemented yet.
+- Investigated some issues related to comments, such as the “>`” option when using the `cat` command. However, due to Unix directionality issues, appropriate handling hasn't been implemented yet. We add an optimize option like '-sa' to cover this case.
