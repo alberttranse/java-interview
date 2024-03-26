@@ -48,24 +48,6 @@ public class CatSimulation {
                 case "-sa": // Recognizing the new option
                     sortAlphabetically = true;
                     break;
-                case ">":
-                    if (args.length <= i + 1) {
-                        System.out.println("Error: No output file specified");
-                        return;
-                    }
-                    redirectOutput = true;
-                    outputFile = args[i + 1];
-                    i++;
-                    break;
-                case ">>":
-                    if (args.length <= i + 1) {
-                        System.out.println("Error: No output file specified");
-                        return;
-                    }
-                    appendOutput = true;
-                    outputFile = args[i + 1];
-                    i++;
-                    break;
                 default:
                     inputFiles.add(args[i]);
             }
