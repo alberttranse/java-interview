@@ -31,3 +31,38 @@ Comment quality: Similar to Unix output with comments.
 - Usage of `StringBuffer`, `StringBuilder` for optimizing file read/write operations.
 - Employing Streams to handle large file scenarios.
 - Investigated some issues related to comments, such as the “>`” option when using the `cat` command. However, due to Unix directionality issues, appropriate handling hasn't been implemented yet. We add an optimize option like '-sa' to cover this case.
+# Alias Simulator Execution Guide
+
+1. Install JDK 11 on Windows 11
+![img](asset/img.png)
+1. Create a .bat file for execution on Windows scripts
+
+(create “**cat.bat**”)
+
+Content of **cat.bat**
+
+```bash
+@echo off
+@START <path to handle file> "%1"
+```
+
+<path to handle file>: C:\Users\Admin\Documents\build\interview-questions\CatSimulation.java
+
+1. Set up the .bat file in the PATH within the system environment
+    1. Open System Properties → Advanced → Environment Variables
+        
+        ![img](asset/img_1.png)
+    2. After opening Environment Variables, a dialog box will appear
+        ![img](asset/img_2.png)
+        
+    3. Choose PATH → Edit
+        
+        Add an environment variable at the end, the value being the path to the .bat file you just created
+        ![img](asset/img_3.png)
+        
+2. Check the configuration of the .bat file you just created
+    1. Open the terminal on your Windows machine
+    2. Execute the command
+    
+    <Name of the bat file> <args defined>
+        ![img](asset/img_4.png)
