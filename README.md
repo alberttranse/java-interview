@@ -31,3 +31,5 @@ Comment quality: Similar to Unix output with comments.
 - Usage of `StringBuffer`, `StringBuilder` for optimizing file read/write operations.
 - Employing Streams to handle large file scenarios.
 - Investigated some issues related to comments, such as the “>`” option when using the `cat` command. However, due to Unix directionality issues, appropriate handling hasn't been implemented yet. We add an optimize option like '-sa' to cover this case.
+
+![image](https://github.com/alberttranse/java-interview/assets/15794394/520cdf61-a967-4cc9-bd5b-1db9a94ad3b2)
