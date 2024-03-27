@@ -1,5 +1,9 @@
 # java-interview
+# Introduction
 
+Our design philosophy this time aims to showcase the techniques and efforts in researching and optimizing technology. Therefore, we have chosen a selection of sample commands with a limited number of arguments.
+
+---
 # ls Command Simulation
 
 Simulated options for `ls` command:
