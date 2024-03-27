@@ -1,4 +1,11 @@
 # java-interview
+# How to build
+Both Windows and MacOS
+
+- Instal Java JDK
+- Download source code and decompress to folder
+- Open CMD or Terminal, run `javac filename.java` to build file
+- Run `java filename %args` to run
 
 # ls Command Simulation
 
